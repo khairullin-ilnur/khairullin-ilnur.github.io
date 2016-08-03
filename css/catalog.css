@@ -50,3 +50,48 @@
 .catalog-container .catalog-category.catalog-category-5 .catalog-category-background {
     background: url(../img/main-category-5.png) bottom center no-repeat #D7D7D7;
 }
+
+.catalog-container .catalog-product {
+    border-radius: 0;
+}
+
+.catalog-container .catalog-product img {
+    width: 100%;
+}
+
+.catalog-container .catalog-product .catalog-product-description {
+    margin-top: 10px;
+}
+
+.catalog-container .catalog-product .catalog-product-price {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.catalog-container .btn.btn-edition {
+    background: #fff;
+    color: #019DD7;
+    border-color: #019DD7;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding: 7px 15px;
+}
+
+.catalog-container .btn.btn-edition:hover,
+.catalog-container .btn.btn-edition:focus {
+    background: #0061A5;
+    color: #fff;
+    border-color: #0061A5;
+}
+
+.catalog-container .catalog-container-back-link {
+    color: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.catalog-container .catalog-container-current {
+    display: inline-block;
+}
