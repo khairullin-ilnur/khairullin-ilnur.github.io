@@ -40,6 +40,8 @@
 .contact .contact-info-block {
     margin-top: 20px;
     margin-bottom: 0;
+    overflow: hidden;
+    width: 100%;
 }
 
 .contact .contact-info-block .col-md-7 {
@@ -47,8 +49,7 @@
 }
 
 .contact .contact-info {
-    text-align: left;
-    background: #F8C300;
+    text-align: center;
     padding: 20px 40px 30px;
 }
 
@@ -97,6 +98,11 @@
 
     .contact p {
         text-align: center;
+    }
+
+    .contact .contact-info {
+        text-align: left;
+        background: #F8C300;
     }
 
     .contact .contact-info-block {
