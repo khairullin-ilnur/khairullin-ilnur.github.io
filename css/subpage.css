@@ -1,0 +1,228 @@
+@import url(https://fonts.googleapis.com/css?family=Exo+2:400,700,300&subset=latin,cyrillic);
+
+body {
+    font-family: 'Exo 2', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    color: #1E2023;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Exo 2', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    color: #1E2023;
+}
+
+/* HEADER */
+
+.header {
+    position: relative;
+    width: 100%;
+    background: #FFFFFF;
+    border: 10px solid #F8C300;
+    border-bottom: none;
+}
+
+.header .navbar-default {
+    background: #FFFFFF;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.header .navbar-default .navbar-brand img {
+    height: 45px;
+    margin-top: -16px;
+}
+
+.header .navbar-default .navbar-nav a {
+    padding-bottom: 4.5px;
+    color: #1E2023;
+    font-weight: bold;
+}
+
+.header .navbar-default .navbar-nav a.active {
+    border-bottom: 4px solid #F8C300;
+}
+
+.header .navbar-default .navbar-nav a:hover,
+.header .navbar-default .navbar-nav a:focus {
+    border-bottom: 4px solid #999999;
+    color: #1E2023;
+    background: transparent;
+}
+
+.header .navbar-default .navbar-nav a.active:hover,
+.header .navbar-default .navbar-nav a.active:focus {
+    border-bottom: 4px solid #F8C300;
+}
+
+/* HEADER END */
+
+/* COMMAND */
+
+.command {
+    position: relative;
+    width: 100%;
+    background: #ffffff;
+    border: 10px solid #F8C300;
+    border-bottom: none;
+    border-top: none;
+    padding-bottom: 50px;
+}
+
+.command .container > h3 {
+    font-size: 26px;
+    line-height: 1.35;
+    font-weight: normal;
+    margin-bottom: 13px;
+    margin-top: 50px;
+}
+
+.command p {
+    font-size: 24px;
+    line-height: 1.4;
+    font-weight: lighter
+}
+
+.command .command-item {
+    margin: 80px 0;
+    text-align: center;
+}
+
+.command .command-item .command-item-face {
+    text-align: center;
+}
+
+.command .command-item .command-item-face img {
+    border-radius: 50%;
+    width: 60%;
+    background: #E2E2E2;
+}
+
+.command .command-item h1 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 22px;
+    margin-bottom: 0;
+}
+
+.command .command-item p {
+    font-size: 16px;
+}
+
+.command .divider {
+    margin: 22px 0;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .command .container > h3 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .command p {
+        text-align: center;
+    }
+}
+
+.reviews .row {
+    margin: 80px 0;
+}
+
+.reviews .reviews-description {
+    background: #F8C300;
+    padding: 40px 30px;
+    font-size: 24px;
+    line-height: 1.4;
+    font-weight: lighter;
+    margin-top: 90px;
+}
+
+/* COMMAND END */
+
+/* CONTACT */
+
+.contact {
+    background: #F8C300;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact h3 {
+    font-size: 26px;
+    line-height: 1.35;
+    font-weight: normal;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contact form input {
+    padding: 23px 17px 24px;
+    height: 49px;
+    width: 200px;
+    text-align: left;
+    margin: 10px -4px 0 0;
+    margin-bottom: 10px;
+    border: 0;
+    border-right: solid 1px #EAEAEA;
+    outline: none;
+}
+
+.contact form button {
+    height: 49px;
+    border: none;
+    background-color: #1E2023;
+    color: #F8C300;
+    vertical-align: bottom;
+    margin: 10px 0;
+    margin-left: -1px;
+    padding: 15px 25px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+
+@media (min-width: 768px) {
+    .contact h3 {
+        font-size: 32px;
+    }
+}
+
+/* CONTACT END */
+
+/* FOOTER */
+
+.footer {
+    background: #1E2023;
+    width: 100%;
+    padding: 40px 0 50px;
+    border: 10px solid #000000;
+    border-top: none;
+    color: #FFFFFF;
+}
+
+.footer .footer-label {
+    font-size: 18px;
+    margin-top: -3px;
+}
+
+.footer .footer-links a {
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 0 5px;
+}
+
+.footer .footer-phone {
+    margin-top: -8px;
+}
+
+.footer .footer-phone a {
+    font-size: 25px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/* FOOTER END */
