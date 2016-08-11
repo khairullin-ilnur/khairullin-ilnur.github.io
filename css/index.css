@@ -647,6 +647,60 @@ h1, h2, h3, h4, h5 {
 
 /* PRICE END */
 
+/* CONTACT */
+
+.contact {
+    background: #F8C300;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact h3 {
+    font-size: 26px;
+    line-height: 1.35;
+    font-weight: normal;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contact form input {
+    padding: 23px 17px 24px;
+    height: 49px;
+    width: 200px;
+    text-align: left;
+    margin: 10px -4px 0 0;
+    margin-bottom: 10px;
+    border: 0;
+    border-right: solid 1px #EAEAEA;
+    outline: none;
+}
+
+.contact form button {
+    height: 49px;
+    border: none;
+    background-color: #1E2023;
+    color: #F8C300;
+    vertical-align: bottom;
+    margin: 10px 0;
+    margin-left: -1px;
+    padding: 15px 25px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+
+@media (min-width: 768px) {
+    .contact h3 {
+        font-size: 32px;
+    }
+}
+
+/* CONTACT END */
+
 /* FOOTER */
 
 .footer {
