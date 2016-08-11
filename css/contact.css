@@ -12,11 +12,8 @@
 }
 
 .contact form input {
-    margin: 10px 0;
     padding: 7px 10px 6px;
     border: solid 1px #D0D0D0;
-    font-weight: bold;
-    font-size: 16px;
 }
 
 .contact form button {

@@ -4,7 +4,7 @@
     position: relative;
     width: 100%;
     background: #ffffff;
-    border: 10px solid #F8C300;
+    border: 5px solid #F8C300;
     border-bottom: none;
     border-top: none;
     padding-bottom: 50px;
@@ -57,6 +57,12 @@
 }
 
 @media (min-width: 768px) {
+    .command {
+        border: 10px solid #F8C300;
+        border-bottom: none;
+        border-top: none;
+    }
+
     .command .container > h3 {
         font-size: 36px;
         text-align: center;
@@ -71,7 +77,8 @@
     }
 
     .command .command-item {
-        margin: 80px 0;
+        margin-top: 80px;
+        margin-bottom: 40px;
     }
 
     .command .command-item .command-item-face img {
@@ -84,7 +91,7 @@
 /* REVIEWS */
 
 .reviews .row {
-    margin: 80px 0;
+    margin: 40px 0;
 }
 
 .reviews .reviews-description {
@@ -98,6 +105,10 @@
 }
 
 @media (min-width: 768px) {
+    .reviews .row {
+        margin: 80px 0;
+    }
+
     .reviews .reviews-description {
         padding: 40px 30px;
         font-size: 24px;
