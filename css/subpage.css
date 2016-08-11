@@ -59,6 +59,10 @@ h1, h2, h3, h4, h5 {
     background: #1E2023;
 }
 
+.header .navbar-default .navbar-toggle:hover, .header .navbar-default .navbar-toggle:focus {
+    background: transparent;
+}
+
 @media (min-width: 768px) {
     .header {
         border: 10px solid #F8C300;

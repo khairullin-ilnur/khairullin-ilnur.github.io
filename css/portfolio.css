@@ -216,6 +216,10 @@
     text-transform: uppercase;
 }
 
+.web-promotion .web-promotion-project-stats .row {
+    margin-bottom: 0;
+}
+
 .web-promotion .web-promotion-project-stats .web-promotion-project-stats-item {
     text-align: center;
     margin: 20px 0;
