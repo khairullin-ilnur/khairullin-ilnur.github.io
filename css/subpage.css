@@ -56,115 +56,6 @@ h1, h2, h3, h4, h5 {
 
 /* HEADER END */
 
-/* COMMAND */
-
-.command {
-    position: relative;
-    width: 100%;
-    background: #ffffff;
-    border: 10px solid #F8C300;
-    border-bottom: none;
-    border-top: none;
-    padding-bottom: 50px;
-}
-
-.command .container > h3 {
-    font-size: 26px;
-    line-height: 1.35;
-    font-weight: normal;
-    margin-bottom: 13px;
-    margin-top: 50px;
-}
-
-.command p {
-    font-size: 24px;
-    line-height: 1.4;
-    font-weight: lighter
-}
-
-.command .command-item {
-    margin: 30px 0;
-    text-align: center;
-}
-
-.command .command-item .command-item-face {
-    text-align: center;
-}
-
-.command .command-item .command-item-face img {
-    border-radius: 50%;
-    width: 40%;
-    background: #E2E2E2;
-}
-
-.command .command-item h1 {
-    font-size: 16px;
-    font-weight: bold;
-    margin-top: 22px;
-    margin-bottom: 0;
-}
-
-.command .command-item p {
-    font-size: 16px;
-}
-
-.command .divider {
-    margin: 22px 0;
-    text-align: center;
-}
-
-@media (min-width: 768px) {
-    .command .container > h3 {
-        font-size: 36px;
-        text-align: center;
-    }
-
-    .command p {
-        text-align: center;
-    }
-
-    .command .divider {
-        margin: 50px 0;
-    }
-
-    .command .command-item {
-        margin: 80px 0;
-    }
-
-    .command .command-item .command-item-face img {
-        width: 60%;
-    }
-}
-
-/* COMMAND END */
-
-/* REVIEWS */
-
-.reviews .row {
-    margin: 80px 0;
-}
-
-.reviews .reviews-description {
-    background: #F8C300;
-    padding: 20px 15px;
-    font-size: 24px;
-    line-height: 1.4;
-    font-weight: lighter;
-    margin-top: 0;
-    text-align: center;
-}
-
-@media (min-width: 768px) {
-    .reviews .reviews-description {
-        padding: 40px 30px;
-        font-size: 24px;
-        margin-top: 90px;
-        text-align: left;
-    }
-}
-
-/* REVIEWS END */
-
 /* CONTACT */
 
 .contact {
@@ -190,7 +81,7 @@ h1, h2, h3, h4, h5 {
     margin: 10px -4px 0 0;
     margin-bottom: 10px;
     border: 0;
-    border-right: solid 1px #EAEAEA;
+    border-right: solid 3px #EAEAEA;
     outline: none;
 }
 
