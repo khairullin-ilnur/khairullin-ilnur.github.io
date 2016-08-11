@@ -8,6 +8,7 @@
     border-bottom: none;
     border-top: none;
     padding-bottom: 50px;
+    padding-top: 0;
 }
 
 .command .container > h3 {
