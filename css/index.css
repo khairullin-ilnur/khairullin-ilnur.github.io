@@ -156,6 +156,7 @@ h1, h2, h3, h4, h5 {
     line-height: 1.35;
     font-weight: normal;
     margin-bottom: 30px;
+    margin-top: 50px;
 }
 
 .advantages .advantages-line {
@@ -182,7 +183,7 @@ h1, h2, h3, h4, h5 {
     }
 
     .advantages .advantages-item {
-        margin: 30px 0;
+        margin: 40px 0;
     }
 
     .advantages .divider {
@@ -252,7 +253,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .about .second-row {
-    margin-top: 70px;
+    margin-top: 100px;
 }
 
 .about .second-row .about-image {
@@ -285,6 +286,10 @@ h1, h2, h3, h4, h5 {
 @media (min-width: 768px) {
     .about .about-text {
         padding-left: 70px;
+    }
+
+    .about .second-row .about-text {
+        padding-left: 40px;
     }
 
     .about .about-text h3 {
@@ -641,6 +646,11 @@ h1, h2, h3, h4, h5 {
     }
 
     .price p {
+        text-align: center;
+    }
+
+    .price .divider {
+        margin: 50px 0;
         text-align: center;
     }
 }
