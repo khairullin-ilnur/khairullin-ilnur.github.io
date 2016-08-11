@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5 {
     position: relative;
     width: 100%;
     background: #FFFFFF;
-    border: 10px solid #F8C300;
+    border: 5px solid #F8C300;
     border-bottom: none;
 }
 
@@ -39,25 +39,53 @@ h1, h2, h3, h4, h5 {
 }
 
 .header .navbar-default .navbar-nav a.active {
-    border-bottom: 4px solid #F8C300;
+    color: #F8C300;
 }
 
 .header .navbar-default .navbar-nav a:hover,
 .header .navbar-default .navbar-nav a:focus {
-    border-bottom: 4px solid #999999;
-    color: #1E2023;
+    border-bottom: none;
+    color: #999999;
     background: transparent;
 }
 
 .header .navbar-default .navbar-nav a.active:hover,
 .header .navbar-default .navbar-nav a.active:focus {
-    border-bottom: 4px solid #F8C300;
+    color: #F8C300;
+    border: none;
+}
+
+.header .navbar-default .navbar-toggle .icon-bar {
+    background: #1E2023;
+}
+
+@media (min-width: 768px) {
+    .header {
+        border: 10px solid #F8C300;
+        border-bottom: none;
+    }
+
+    .header .navbar-default .navbar-nav a.active {
+        color: #1E2023;
+        border-bottom: 4px solid #F8C300;
+    }
+
+    .header .navbar-default .navbar-nav a:hover,
+    .header .navbar-default .navbar-nav a:focus {
+        border-bottom: 4px solid #999999;
+        color: #1E2023;
+    }
+
+    .header .navbar-default .navbar-nav a.active:hover,
+    .header .navbar-default .navbar-nav a.active:focus {
+        color: #1E2023;
+        border-bottom: 4px solid #F8C300;
+    }
 }
 
 /* HEADER END */
 
 /* CONTACT */
-
 .contact {
     background: #F8C300;
     text-align: center;
@@ -116,7 +144,7 @@ h1, h2, h3, h4, h5 {
     background: #1E2023;
     width: 100%;
     padding: 40px 0 50px;
-    border: 10px solid #000000;
+    border: 5px solid #000000;
     border-top: none;
     color: #FFFFFF;
 }
@@ -124,6 +152,10 @@ h1, h2, h3, h4, h5 {
 .footer .footer-label {
     font-size: 18px;
     margin-top: -3px;
+}
+
+.footer .footer-links {
+    margin: 15px 0;
 }
 
 .footer .footer-links a {
@@ -141,5 +173,21 @@ h1, h2, h3, h4, h5 {
     color: #FFFFFF;
     cursor: pointer;
 }
+
+.footer .footer-phone a:hover,
+.footer .footer-phone a:focus {
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    .footer {
+        border: 10px solid #000000;
+        border-top: none;
+    }
+    .footer .footer-links {
+        margin: 0;
+    }
+}
+
 
 /* FOOTER END */
