@@ -1,0 +1,125 @@
+/* GUARANTEES */
+
+.guarantees {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background: #ffffff;
+    border: 5px solid #F8C300;
+    border-bottom: none;
+    border-top: none;
+    padding-bottom: 50px;
+    padding-top: 0;
+}
+
+.guarantees h3 {
+    font-size: 26px;
+    line-height: 1.35;
+    font-weight: normal;
+    margin-bottom: 13px;
+    margin-top: 50px;
+}
+
+.guarantees .guarantees-about-text p {
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: normal;
+    margin-bottom: 22px
+}
+
+.guarantees .guarantees-about-text {
+    padding-left: 30px;
+}
+
+.guarantees .guarantees-about-advantages {
+    margin-top: 50px;
+    padding-left: 30px;
+}
+
+.guarantees .guarantees-about-advantages-item {
+    margin: 10px 0;
+}
+
+.guarantees .guarantees-about-advantages-number {
+    width: 12%;
+    display: inline-block;
+    text-align: center;
+}
+
+.guarantees .guarantees-about-advantages-number-circle {
+    width: 45px;
+    height: 45px;
+    color: #FFFFFF;
+    padding-top: 6px;
+    border-radius: 50%;
+    background: #1E2023;
+    font-size: 21px;
+    line-height: 1.4;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 22px
+}
+
+.guarantees .guarantees-about-advantages-desc {
+    width: 77%;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: bold;
+    margin-bottom: 22px
+}
+
+.guarantees .divider {
+    margin: 22px 0;
+    text-align: center;
+}
+
+.guarantees .guarantees-image img {
+    margin: 70px 0;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .guarantees {
+        border: 10px solid #F8C300;
+        border-bottom: none;
+        border-top: none;
+        padding-top: 50px;
+    }
+
+    .guarantees  h3 {
+        font-size: 36px;
+    }
+
+    .guarantees .container >  h3 {
+        text-align: center;
+    }
+
+    .guarantees .guarantees-about-text {
+        padding-top: 70px;
+        padding-left: 70px;
+    }
+
+    .guarantees .guarantees-about-advantages {
+        background: #F8C300;
+        margin-top: 40px;
+        padding: 50px 50px;
+        padding-right: 0;
+    }
+
+    .guarantees .guarantees-about-text h3 {
+        font-size: 36px;
+        line-height: 1.4;
+        margin-bottom: 22px
+    }
+
+    .guarantees .divider {
+        margin: 50px 0;
+    }
+
+    .guarantees .guarantees-image {
+        background: url(../img/shield.svg) bottom center no-repeat transparent;
+    }
+}
+
+/* GUARANTEES END */
