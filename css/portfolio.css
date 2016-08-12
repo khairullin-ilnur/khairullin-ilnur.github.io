@@ -207,7 +207,6 @@
 
 .web-promotion .web-promotion-project .web-promotion-project-image img {
     width: 40%;
-    border-radius: 50%;
     margin: 20px 0;
 }
 
@@ -269,7 +268,9 @@
     }
 
     .web-promotion .web-promotion-project .web-promotion-project-image img {
-        width: 60%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        width: 70%;
     }
 }
 

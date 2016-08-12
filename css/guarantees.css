@@ -37,16 +37,17 @@
 }
 
 .guarantees .guarantees-about-advantages-item {
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 .guarantees .guarantees-about-advantages-number {
-    width: 12%;
+    width: 20%;
     display: inline-block;
     text-align: center;
 }
 
 .guarantees .guarantees-about-advantages-number-circle {
+    display: inline-block;
     width: 45px;
     height: 45px;
     color: #FFFFFF;
@@ -61,7 +62,7 @@
 }
 
 .guarantees .guarantees-about-advantages-desc {
-    width: 77%;
+    width: 70%;
     display: inline-block;
     font-size: 18px;
     line-height: 1.4;
@@ -111,6 +112,10 @@
         font-size: 36px;
         line-height: 1.4;
         margin-bottom: 22px
+    }
+
+    .guarantees .guarantees-about-advantages-number {
+        width: 15%;
     }
 
     .guarantees .divider {
