@@ -106,7 +106,40 @@ h1, h2, h3, h4, h5 {
 
 .header .banner img {
     margin-top: 80px;
-    width: 90%;
+    width: 100%;
+}
+
+.header .banner .banner-small-cube {
+    display: inline-block;
+    background: #FFFFFF;
+    padding: 40px;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 20px;
+}
+
+.header .banner .banner-small-cube-contrast {
+    background: #F8C300;
+}
+
+.header .banner .banner-small-cube img {
+    margin-top: 0;
+}
+
+.header .banner .banner-large-cube {
+    display: inline-block;
+    background: #FFFFFF;
+    padding: 30px;
+    width: 200px;
+    height: 380px;
+    text-align: center;
+    color: #F8C300;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.header .banner .banner-large-cube img {
+    margin-top: 0;
 }
 
 @media (min-width: 768px) {
