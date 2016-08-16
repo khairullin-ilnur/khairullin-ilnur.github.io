@@ -77,8 +77,8 @@
     }
 
     .command .command-item {
-        margin-top: 80px;
-        margin-bottom: 40px;
+        margin-top: 60px;
+        margin-bottom: 20px;
     }
 
     .command .command-item .command-item-face img {
@@ -89,6 +89,31 @@
 /* COMMAND END */
 
 /* REVIEWS */
+
+.reviews {
+    position: relative;
+    width: 100%;
+    background: #ffffff;
+    border: 5px solid #F8C300;
+    border-bottom: none;
+    border-top: none;
+    padding-bottom: 50px;
+    padding-top: 0;
+}
+
+.reviews .container > h3 {
+    font-size: 26px;
+    line-height: 1.35;
+    font-weight: normal;
+    margin-bottom: 13px;
+    margin-top: 50px;
+}
+
+.reviews p {
+    font-size: 24px;
+    line-height: 1.4;
+    font-weight: lighter
+}
 
 .reviews .row {
     margin: 40px 0;
@@ -105,6 +130,21 @@
 }
 
 @media (min-width: 768px) {
+    .reviews {
+        border: 10px solid #F8C300;
+        border-bottom: none;
+        border-top: none;
+    }
+
+    .reviews .container > h3 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .reviews p {
+        text-align: center;
+    }
+
     .reviews .row {
         margin: 80px 0;
     }
