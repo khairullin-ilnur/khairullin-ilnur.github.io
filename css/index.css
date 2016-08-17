@@ -36,6 +36,10 @@ h1, h2, h3, h4, h5 {
     font-weight: bold;
 }
 
+.header .navbar-default .navbar-nav a.contrast {
+    color: #F8C300;
+}
+
 .header .navbar-default .navbar-nav a:hover,
 .header .navbar-default .navbar-nav a:focus {
     border-bottom: none;
