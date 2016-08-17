@@ -67,7 +67,7 @@
 }
 
 .web-sites .web-sites-image img {
-    width: 80%;
+    width: 90%;
 }
 
 .web-sites .divider {
@@ -89,7 +89,7 @@
     .web-sites .web-sites-description {
         padding: 40px 30px;
         font-size: 24px;
-        margin-top: 40px;
+        margin-top: 80px;
         text-align: center;
     }
 
@@ -269,7 +269,7 @@
 
     .web-promotion .web-promotion-project .web-promotion-project-image img {
         margin-top: 60px;
-        margin-bottom: 60px;
+        margin-bottom: 30px;
         width: 70%;
     }
 }
