@@ -20,7 +20,7 @@
 }
 
 .questions .questions-item {
-    margin: 40px 0;
+    margin: 40px 0 40px 10px;
 }
 
 .questions .questions-item .questions-item-title {
