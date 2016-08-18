@@ -172,6 +172,12 @@ h1, h2, h3, h4, h5 {
     margin-top: -8px;
 }
 
+.footer .footer-phone img {
+    margin-top: -3px;
+    margin-left: 5px;
+    height: 23px;
+}
+
 .footer .footer-phone a {
     font-size: 25px;
     color: #FFFFFF;
