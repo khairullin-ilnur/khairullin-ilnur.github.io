@@ -1,0 +1,56 @@
+/* THANKS */
+
+.thanks {
+    position: relative;
+    width: 100%;
+    background: #ffffff;
+    border: 5px solid #F8C300;
+    border-bottom: none;
+    border-top: none;
+    padding-bottom: 50px;
+    height: 100%;
+}
+
+.thanks h3 {
+    font-size: 26px;
+    line-height: 1.35;
+    font-weight: normal;
+    margin-bottom: 13px;
+}
+
+.thanks p {
+    font-size: 24px;
+    line-height: 1.4;
+    margin-bottom: 150px;
+    font-weight: lighter
+}
+
+.thanks img {
+    margin-top: 100px;
+    height: 128px;
+    width: 128px;
+}
+
+
+@media (min-width: 768px) {
+    .thanks {
+        border: 10px solid #F8C300;
+        border-bottom: none;
+        border-top: none;
+    }
+
+    .thanks h3 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .thanks p {
+        text-align: center;
+    }
+
+    .thanks img {
+        margin-top: 150px;
+    }
+}
+
+/* THANKS END */

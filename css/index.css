@@ -887,3 +887,63 @@ h1, h2, h3, h4, h5 {
 }
 
 /* FOOTER END */
+
+/* MODAL FORM */
+
+.modal-content {
+    box-shadow: inset 0px 0px 0px 3px #F8C300;
+    text-align: center;
+}
+
+.modal-dialog h4.modal-title {
+    font-size: 24px;
+    line-height: 1.35;
+    font-weight: normal;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.modal-dialog form input {
+    padding: 23px 17px 24px;
+    height: 49px;
+    width: 220px;
+    text-align: left;
+    margin: 10px 0;
+    border: solid 1px #1E2023;
+    outline: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.modal-dialog form button {
+    height: 49px;
+    width: 220px;
+    border: none;
+    background-color: #F8C300;
+    color: #1E2023;
+    vertical-align: bottom;
+    margin: 10px 0;
+    margin-left: -1px;
+    padding: 15px 25px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+
+.modal-dialog form button:hover,
+.modal-dialog form button:active {
+    background-color: #1E2023;
+    color: #F8C300;
+}
+
+@media (min-width: 768px) {
+    .modal-dialog h4.modal-title {
+        font-size: 28px;
+    }
+}
+
+/* MODAL FORM END */

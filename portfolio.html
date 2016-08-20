@@ -123,7 +123,8 @@
                 <div class="web-sites-description">
                     Сайт компании<br>
                     <span class="web-sites-description-name">ООО "ДЕРЕВЯННЫЙ ВАВИЛОН"</span><br>
-                    <a class="btn btn-default btn-sites" href="http://деревянный-вавилон.рф" target="_blank">посмотреть</a>
+                    <a class="btn btn-default btn-sites" href="http://деревянный-вавилон.рф"
+                       target="_blank">посмотреть</a>
                 </div>
             </div>
         </div>
@@ -153,7 +154,7 @@
 <div class="order">
     <div class="container">
         <h3>Заказать разработку сайта</h3>
-        <a class="btn btn-default btn-order">оставить заявку</a>
+        <a class="btn btn-default btn-order" data-toggle="modal" data-target="#formModalConnect">оставить заявку</a>
     </div>
 </div>
 
@@ -331,10 +332,11 @@
 <div class="contact">
     <div class="container">
         <h3>Сделайте первый шаг к привлечению клиентов из интернета</h3>
-        <form>
+        <form action="http://formspree.io/gnsis116@gmail.com" method="post">
             <input type="text" name="name" required="required" placeholder="Ваше имя">
             <input type="text" name="phone" required="required" placeholder="Телефонный номер">
-            <button type="submit">Заказать звонок</button>
+            <input type="hidden" name="_next" value="thanks.html"/>
+            <button type="submit">Оставить заявку</button>
         </form>
     </div>
 </div>
@@ -366,6 +368,32 @@
         <div class="col-xs-12 footer-label">&#169; 2016 "Genesis"</div>
     </div>
 </div>
+
+<!-- BEGIN FORM MODAL MARKUP -->
+<div class="modal fade" id="formModalConnect" tabindex="-1" role="dialog" aria-labelledby="formModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Сделайте первый шаг к привлечению клиентов из интернета</h4>
+            </div>
+            <form class="form-horizontal" role="form" action="http://formspree.io/gnsis116@gmail.com" method="post">
+                <div class="modal-body">
+                    <div>
+                        <input type="text" name="name" required="required" placeholder="Ваше имя">
+                    </div>
+                    <div>
+                        <input type="text" name="phone" required="required" placeholder="Телефонный номер">
+                    </div>
+                    <input type="hidden" name="_next" value="thanks.html"/>
+                    <button class="btn btn-success" type="submit">Заказать звонок</button>
+                </div>
+            </form>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!-- END FORM MODAL MARKUP -->
 
 <!-- JavaScripts -->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
